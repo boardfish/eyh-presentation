@@ -4,6 +4,7 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:900');
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -11,11 +12,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #000;
+  background-color: #000; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Work Sans", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -46,7 +47,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Work Sans", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -81,7 +82,10 @@ body {
 .reveal video,
 .reveal iframe {
   max-width: 95%;
-  max-height: 95%; }
+  max-height: 95%; 
+  width: auto !important;
+  height: auto !important;
+}
 
 .reveal strong,
 .reveal b {
